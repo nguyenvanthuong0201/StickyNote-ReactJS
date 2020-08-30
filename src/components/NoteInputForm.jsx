@@ -58,6 +58,7 @@ export default class NoteInputForm extends Component {
     });
   };
   render() {
+    let {id}= this.state
     return (
       <div>
         <div className="input_content">
@@ -96,7 +97,7 @@ export default class NoteInputForm extends Component {
               startIcon={<SaveIcon />}
               onClick={this.onSubmit}
             >
-              Save
+              {id?"Update":"Save"}
             </Button>
           </FormControl>
         </div>
