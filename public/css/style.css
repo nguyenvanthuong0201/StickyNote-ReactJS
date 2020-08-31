@@ -3,29 +3,33 @@
   margin: 0;
 }
 
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.input2.MuiInputBase-formControl.MuiInput-formControl {
+  width: 450px;
+}
+
 h6.MuiTypography-root.MuiTypography-h6 {
-    font-size: 11px;
-    color: black;
-    position: relative;
-    top: 25px;
-    left: -160px;
+  font-size: 11px;
+  color: black;
+  position: relative;
+  top: 25px;
+  left: -160px;
 }
 
 button.MuiButtonBase-root.MuiIconButton-root {
-    /* right: 1px; */
+  /* right: 1px; */
 }
 
 label.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated {
-    margin-left: 8px;
-    color: goldenrod;
+  margin-left: 8px;
+  color: goldenrod;
 }
 
 input#my-input {
-    padding: 10px;
-    outline: white;
-    border-radius: 10px;
-    border: solid 2px goldenrod;
-    color: #fafafa;
+  padding: 10px;
+  outline: white;
+  border-radius: 10px;
+  border: solid 2px goldenrod;
+  color: #fafafa;
 }
 body,
 html {
@@ -36,7 +40,7 @@ p#my-helper-text {
   color: goldenrod;
   text-align: center;
 }
-hr.Content_hr{
+hr.Content_hr {
   padding: 2px;
   background-color: goldenrod;
   margin-bottom: 20px;
@@ -57,7 +61,7 @@ li {
   background: #fbc02d;
   position: relative;
 }
-.stick_header{
+.stick_header {
   width: 250px;
   height: auto;
 }
@@ -74,38 +78,38 @@ svg.MuiSvgIcon-root.stick-icon {
   color: #b71c1c;
 }
 
-.stick_content p{
-    font-size: 16px;
-    margin-left: 5px;
+.stick_content p {
+  font-size: 16px;
+  margin-left: 5px;
 }
 .stick_content {
   margin-top: 5px;
 }
 
-.stick li{
+.stick li {
   transform: rotate(-6deg);
   margin-left: 50px;
   float: left;
 }
-.stick li:nth-child(even){
+.stick li:nth-child(even) {
   transform: rotate(5deg);
   position: relative;
   top: 6px;
   background: #ff5733;
 }
-.stick_title b{
+.stick_title b {
   font-size: 18px;
   margin-left: 5px;
 }
 
-.stick li:nth-child(3n){
+.stick li:nth-child(3n) {
   transform: rotate(-3deg);
   position: relative;
   top: -5px;
   background: #77d8d8;
 }
 
-.stick li:nth-child(5n){
+.stick li:nth-child(5n) {
   transform: rotate(5deg);
   position: relative;
   top: -10px;
@@ -119,51 +123,60 @@ svg.MuiSvgIcon-root.stick-icon {
   left: 5%;
   margin-left: 10px;
 }
-.stick{
+.stick {
   display: flex;
   flex-wrap: wrap;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained {
+  width: 180px;
 }
 .input_content {
   margin-top: 100px;
   margin-left: 60px;
 }
 
-
 @media (max-width: 992px) {
   button.MuiButtonBase-root.MuiButton-root.MuiButton-contained {
     margin-left: -50px;
+  }
 }
-}
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .MuiFormControl-root.Content_note {
     display: table-cell;
-}
-.stick li{
-  margin-left: 70px;
-}
+  }
+  .stick li {
+    margin-left: 70px;
+  }
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.input2.MuiInputBase-formControl.MuiInput-formControl {
+    width: 500px;
+  }
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.input2.MuiInputBase-formControl.MuiInput-formControl {
+    width: 330px;
+  }
 }
 @media (max-width: 576px) {
   .MuiFormControl-root.Content_note {
     display: table-cell;
-}
-.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl {
-  width: 450px;
-
-}
-.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl{
-  width: 450px;
-  
-}
-.stick li {
-  margin-left: 135px;
-}
-.stick li:hover,
-.stick li:focus {
-  margin-top: 10px;
-  left: 27%;
-}
-h6.MuiTypography-root.MuiTypography-h6 {
-  top: 0px;
-  left: 260px;
-}
+  }
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl {
+    width: 330px;
+  }
+  .stick li {
+    margin-left: 86px;
+  }
+  .stick li:hover,
+  .stick li:focus {
+    margin-top: 10px;
+    left: 18%;
+  }
+  h6.MuiTypography-root.MuiTypography-h6 {
+    top: 0px;
+    left: 10px;
+  }
+  .input_content {
+    margin-left: 35px;
+  }
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-contained {
+    width: 330px;
+  }
 }

@@ -38,7 +38,6 @@ export default class Index extends Component {
   onDelete = (id) => {
     // let id = Object.assign({}, id);
     // let an = id.toString(id);
-    // console.log("sau khi set",id)
     let {Data}=this.state
     let index = this.findIndex(id)
     if(index !==-1){

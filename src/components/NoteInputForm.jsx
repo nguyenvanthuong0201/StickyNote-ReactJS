@@ -69,6 +69,7 @@ export default class NoteInputForm extends Component {
               value={this.state.title}
               name="title"
               onChange={this.onChange}
+              className="input1"
             />
             <FormHelperText id="my-helper-text">Your job title.</FormHelperText>
           </FormControl>
@@ -76,17 +77,17 @@ export default class NoteInputForm extends Component {
             <InputLabel htmlFor="my-input">Content Note</InputLabel>
             <Input
               id="my-input"
-              style={{ width: "450px" }}
               value={this.state.content}
               name="content"
               onChange={this.onChange}
+              className="input2"
             />
             <FormHelperText id="my-helper-text">
               Content you need to complete
             </FormHelperText>
           </FormControl>
           <FormControl
-            style={{ marginLeft: "50px", marginTop: "20px", width: "150px" }}
+            style={{ marginLeft: "50px", marginTop: "20px"}}
           >
             <Button
               variant="contained"
